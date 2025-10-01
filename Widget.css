@@ -1,0 +1,62 @@
+.Widget{
+    flex: 0.5;
+    display: flex;
+    flex-direction: column;
+    width: 280px;
+    
+    top: 70px;
+    margin: 3px;
+    margin-top: 0px;
+    margin-left: 20px;
+}
+
+.gameCard{
+
+    background-color: white;
+    padding: 20px 20px;
+    border-radius: 5px;
+    height: fit-content;    
+    margin-top: 7px;
+    box-shadow: 0.5px 0.5px rgb(197, 191, 191);
+
+
+    
+}
+
+.container{
+    display: flex;
+    margin-top: 8px;
+    justify-content: space-evenly;
+}
+
+.gameCard > img{
+    margin-top: 9px ;
+    border: black solid 0.1px;
+    border-radius: 3px;
+}  
+
+.top{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    
+    align-items: center;
+    padding: 20px 20px;
+    border-radius: 5px;
+    
+
+}
+.Cards{
+    background-color: white;
+    align-items: center;
+    padding: 0;
+}
+
+.cards{
+    background-color: white;
+    align-items: center;
+    border-radius: 5px;
+    height: fit-content;    
+    margin-top: 5px;
+    box-shadow: 0.5px 0.5px rgb(197, 191, 191);
+}

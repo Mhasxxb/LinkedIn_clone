@@ -1,0 +1,21 @@
+.btn{
+    flex: 0.1;
+    border: solid 0.1px black;
+    color: black;
+    border-radius: 40px;
+    padding: 5px 15px;
+    transition: background 0.3s ease, color 0.3s ease;
+    background-color: white;
+    margin-right: 34px;
+    margin-bottom: 7px;
+    font-weight: 500;
+    cursor: pointer;
+
+}
+.btn:hover{
+    
+    background-color: rgb(235, 231, 231);
+    border: solid 2px black;
+    margin-bottom: 5px; 
+    
+}
